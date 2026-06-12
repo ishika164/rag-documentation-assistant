@@ -7,6 +7,7 @@ class GraphState(TypedDict):
 
     # Query Analysis output
     rewritten_query: str
+    query_type: str
 
     # Retrieval output
     retrieved_docs: List[dict]

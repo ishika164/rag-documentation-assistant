@@ -115,6 +115,7 @@ def run_query(question: str, chat_history: list = None) -> dict:
     initial_state = GraphState(
         question=question,
         rewritten_query="",
+        query_type="",
         retrieved_docs=[],
         relevant_docs=[],
         all_irrelevant=False,
